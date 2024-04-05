@@ -1,0 +1,315 @@
+{
+  "categories":[
+    {
+        "id": "c1",
+        "description": "Smartphones"
+    },
+    {
+        "id": "c2",
+        "description": "Laptops"
+    },
+    {
+        "id": "c3",
+        "description": "Fragrances"
+    },
+    {
+        "id": "c4",
+        "description": "Skincare"
+    },
+    {
+        "id": "c5",
+        "description": "Groceries"
+    },
+    {
+        "id": "c6",
+        "description": "Home Decoration"
+    }
+],
+  "products": [
+      {
+          "id": 1,
+          "name": "iPhone 9",
+          "description": "An apple mobile which is nothing like apple",
+          "price": 549,
+          "discontinued": false,
+          "categories": ["c1"],
+          "images": [
+              "https://cdn.dummyjson.com/product-images/1/1.jpg",
+              "https://cdn.dummyjson.com/product-images/1/2.jpg",
+              "https://cdn.dummyjson.com/product-images/1/3.jpg",
+              "https://cdn.dummyjson.com/product-images/1/4.jpg",
+              "https://cdn.dummyjson.com/product-images/1/thumbnail.jpg"
+          ]
+      },
+      {
+          "id": 2,
+          "name": "iPhone X",
+          "description": "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
+          "price": 899,
+          "discontinued": false,
+          "categories": ["c1"],
+          "images": [
+              "https://cdn.dummyjson.com/product-images/2/1.jpg",
+              "https://cdn.dummyjson.com/product-images/2/2.jpg",
+              "https://cdn.dummyjson.com/product-images/2/3.jpg",
+              "https://cdn.dummyjson.com/product-images/2/thumbnail.jpg"
+          ]
+      },
+      {
+          "id": 3,
+          "name": "Samsung Universe 9",
+          "description": "Samsung's new variant which goes beyond Galaxy to the Universe",
+          "price": 1249,
+          "discontinued": false,
+          "categories": ["c1"],
+          "images": [
+              "https://cdn.dummyjson.com/product-images/3/1.jpg"
+          ]
+      },
+      {
+          "id": 4,
+          "name": "OPPOF19",
+          "description": "OPPO F19 is officially announced on April 2021.",
+          "price": 280,
+          "discontinued": false,
+          "categories": ["c1"],
+          "images": [
+              "https://cdn.dummyjson.com/product-images/4/1.jpg",
+              "https://cdn.dummyjson.com/product-images/4/2.jpg",
+              "https://cdn.dummyjson.com/product-images/4/3.jpg",
+              "https://cdn.dummyjson.com/product-images/4/4.jpg",
+              "https://cdn.dummyjson.com/product-images/4/thumbnail.jpg"
+          ]
+      },
+      {
+          "id": 5,
+          "name": "Huawei P30",
+          "description": "Huawei’s re-badged P30 Pro New Edition was officially unveiled yesterday in Germany and now the device has made its way to the UK.",
+          "price": 499,
+          "discontinued": false,
+          "categories": ["c1"],
+          "images": [
+              "https://cdn.dummyjson.com/product-images/5/1.jpg",
+              "https://cdn.dummyjson.com/product-images/5/2.jpg",
+              "https://cdn.dummyjson.com/product-images/5/3.jpg"
+          ]
+      },
+      {
+          "id": 6,
+          "name": "MacBook Pro",
+          "description": "MacBook Pro 2021 with mini-LED display may launch between September, November",
+          "price": 1749,
+          "discontinued": false,
+          "categories": ["c2"],
+          "images": [
+              "https://cdn.dummyjson.com/product-images/6/1.png",
+              "https://cdn.dummyjson.com/product-images/6/2.jpg",
+              "https://cdn.dummyjson.com/product-images/6/3.png",
+              "https://cdn.dummyjson.com/product-images/6/4.jpg"
+          ]
+      },
+      {
+          "id": 7,
+          "name": "Samsung Galaxy Book",
+          "description": "Samsung Galaxy Book S (2020) Laptop With Intel Lakefield Chip, 8GB of RAM Launched",
+          "price": 1499,
+          "discontinued": false,
+          "categories": ["c2"],
+          "images": [
+              "https://cdn.dummyjson.com/product-images/7/1.jpg",
+              "https://cdn.dummyjson.com/product-images/7/2.jpg",
+              "https://cdn.dummyjson.com/product-images/7/3.jpg",
+              "https://cdn.dummyjson.com/product-images/7/thumbnail.jpg"
+          ]
+      },
+      {
+          "id": 8,
+          "name": "Microsoft Surface Laptop 4",
+          "description": "Style and speed. Stand out on HD video calls backed by Studio Mics. Capture ideas on the vibrant touchscreen",
+          "price": 1599,
+          "discontinued": true,
+          "images": [
+            "https://cdn.dummyjson.com/product-images/8/1.jpg",
+            "https://cdn.dummyjson.com/product-images/8/2.jpg",
+            "https://cdn.dummyjson.com/product-images/8/3.jpg",
+            "https://cdn.dummyjson.com/product-images/8/4.jpg",
+            "https://cdn.dummyjson.com/product-images/8/thumbnail.jpg"
+        ]
+    },
+    {
+        "id": 9,
+        "name": "Lenovo IdeaPad Flex 5",
+        "description": "Lenovo IdeaPad Flex 5 with 5G, Snapdragon 8cx SoC Launched",
+        "price": 999,
+        "discontinued": false,
+        "categories": ["c2"],
+        "images": [
+            "https://cdn.dummyjson.com/product-images/9/1.jpg",
+            "https://cdn.dummyjson.com/product-images/9/2.jpg",
+            "https://cdn.dummyjson.com/product-images/9/3.jpg",
+            "https://cdn.dummyjson.com/product-images/9/4.jpg",
+            "https://cdn.dummyjson.com/product-images/9/thumbnail.jpg"
+        ]
+    },
+    {
+        "id": 10,
+        "name": "Dell XPS 13",
+        "description": "Dell XPS 13 (9310) with 11th-Gen Intel Core Processors, Up to 32GB RAM Launched in India",
+        "price": 1449,
+        "discontinued": false,
+        "categories": ["c2"],
+        "images": [
+            "https://cdn.dummyjson.com/product-images/10/1.jpg",
+            "https://cdn.dummyjson.com/product-images/10/2.jpg",
+            "https://cdn.dummyjson.com/product-images/10/3.jpg",
+            "https://cdn.dummyjson.com/product-images/10/4.jpg",
+            "https://cdn.dummyjson.com/product-images/10/thumbnail.jpg"
+        ]
+    },
+    {
+        "id": 11,
+        "name": "Asus ZenBook Duo",
+        "description": "Asus ZenBook Duo UX482E Dual-Screen Laptop Launched in India: Price, Specifications",
+        "price": 1299,
+        "discontinued": false,
+        "categories": ["c2"],
+        "images": [
+            "https://cdn.dummyjson.com/product-images/11/1.jpg",
+            "https://cdn.dummyjson.com/product-images/11/2.jpg",
+            "https://cdn.dummyjson.com/product-images/11/3.jpg",
+            "https://cdn.dummyjson.com/product-images/11/4.jpg",
+            "https://cdn.dummyjson.com/product-images/11/thumbnail.jpg"
+        ]
+    },
+    {
+        "id": 12,
+        "name": "Google Pixelbook Go",
+        "description": "Google Pixelbook Go is the go-there, do-that Chromebook. It's light enough to go anywhere and has an all-day battery.",
+        "price": 649,
+        "discontinued": false,
+        "categories": ["c2"],
+        "images": [
+            "https://cdn.dummyjson.com/product-images/12/1.jpg",
+            "https://cdn.dummyjson.com/product-images/12/2.jpg",
+            "https://cdn.dummyjson.com/product-images/12/3.jpg",
+            "https://cdn.dummyjson.com/product-images/12/4.jpg",
+            "https://cdn.dummyjson.com/product-images/12/thumbnail.jpg"
+        ]
+    },
+    {
+        "id": 13,
+        "name": "iPad Air",
+        "description": "iPad Air is thin, light, and powerful. It features the A12 Bionic chip with Neural Engine, which uses real-time machine learning to transform the way you experience photos, gaming, augmented reality (AR), and more.",
+        "price": 599,
+        "discontinued": false,
+        "categories": ["c3"],
+        "images": [
+            "https://cdn.dummyjson.com/product-images/13/1.jpg",
+            "https://cdn.dummyjson.com/product-images/13/2.jpg",
+            "https://cdn.dummyjson.com/product-images/13/3.jpg",
+            "https://cdn.dummyjson.com/product-images/13/thumbnail.jpg"
+        ]
+    },
+    {
+        "id": 14,
+        "name": "iPad Pro",
+        "description": "iPad Pro features the powerful Apple M1 chip for next-level performance and all-day battery life.[3] An immersive 12.9-inch Liquid Retina XDR display for viewing and editing HDR photos and videos.[1] 5G capability for fast download and streaming.[2] And a front camera with Center Stage keeps you in frame automatically during video calls.",
+        "price": 1099,
+        "discontinued": false,
+        "categories": ["c3"],
+        "images": [
+            "https://cdn.dummyjson.com/product-images/14/1.jpg",
+            "https://cdn.dummyjson.com/product-images/14/2.jpg",
+            "https://cdn.dummyjson.com/product-images/14/3.jpg",
+            "https://cdn.dummyjson.com/product-images/14/thumbnail.jpg"
+        ]
+    },
+    {
+        "id": 15,
+        "name": "Samsung Galaxy Tab S7",
+        "description": "With the Samsung Galaxy Tab S7 and S7+, you can unleash your creativity, work smarter, play faster, live better.",
+        "price": 849,
+        "discontinued": false,
+        "categories": ["c3"],
+        "images": [
+            "https://cdn.dummyjson.com/product-images/15/1.jpg",
+            "https://cdn.dummyjson.com/product-images/15/2.jpg",
+            "https://cdn.dummyjson.com/product-images/15/3.jpg",
+            "https://cdn.dummyjson.com/product-images/15/thumbnail.jpg"
+        ]
+    },
+    {
+        "id": 16,
+        "name": "Amazon Kindle Oasis",
+        "description": "The all-new Kindle Oasis features our best Paperwhite display ever with a flush-front design and 300 ppi glare-free display that reads like real paper even in bright sunlight.",
+        "price": 249,
+        "discontinued": false,
+        "categories": ["c3"],
+        "images": [
+            "https://cdn.dummyjson.com/product-images/16/1.jpg",
+            "https://cdn.dummyjson.com/product-images/16/2.jpg",
+            "https://cdn.dummyjson.com/product-images/16/3.jpg",
+            "https://cdn.dummyjson.com/product-images/16/thumbnail.jpg"
+        ]
+    },
+    {
+        "id": 17,
+        "name": "Sony PlayStation 5",
+        "description": "Experience lightning-fast loading with an ultra-high-speed SSD, deeper immersion with support for haptic feedback, adaptive triggers, and 3D Audio, and an all-new generation of incredible PlayStation games.",
+        "price": 499,
+        "discontinued": false,
+        "categories":
+        ["c4"],
+        "images": [
+            "https://cdn.dummyjson.com/product-images/17/1.jpg",
+            "https://cdn.dummyjson.com/product-images/17/2.jpg",
+            "https://cdn.dummyjson.com/product-images/17/3.jpg",
+            "https://cdn.dummyjson.com/product-images/17/4.jpg",
+            "https://cdn.dummyjson.com/product-images/17/thumbnail.jpg"
+        ]
+    },
+    {
+        "id": 18,
+        "name": "Xbox Series X",
+        "description": "Introducing Xbox Series X, the fastest, most powerful Xbox ever. Play thousands of titles from four generations of consoles—all games look and play best on Xbox Series X.",
+        "price": 499,
+        "discontinued": false,
+        "categories": ["c4"],
+        "images": [
+            "https://cdn.dummyjson.com/product-images/18/1.jpg",
+            "https://cdn.dummyjson.com/product-images/18/2.jpg",
+            "https://cdn.dummyjson.com/product-images/18/3.jpg",
+            "https://cdn.dummyjson.com/product-images/18/4.jpg",
+            "https://cdn.dummyjson.com/product-images/18/thumbnail.jpg"
+        ]
+    },
+    {
+        "id": 19,
+        "name": "Nintendo Switch",
+        "description": "Get the gaming system that lets you play the games you want, wherever you are, however you like. Includes the Nintendo Switch console and Nintendo Switch dock in black, with contrasting left and right Joy‑Con controllers—one red, one blue. Also includes all the extras you need to get started.",
+        "price": 299,
+        "discontinued": false,
+        "categories": ["c4"],
+        "images": [
+            "https://cdn.dummyjson.com/product-images/19/1.jpg",
+            "https://cdn.dummyjson.com/product-images/19/2.jpg",
+            "https://cdn.dummyjson.com/product-images/19/3.jpg",
+            "https://cdn.dummyjson.com/product-images/19/thumbnail.jpg"
+        ]
+    },
+    {
+        "id": 20,
+        "name": "Sony WH-1000XM4",
+        "description": "Sony WH-1000XM4 Wireless Industry Leading Noise Canceling Overhead Headphones with Mic for Phone-Call and Alexa Voice Control, Black",
+        "price": 349,
+        "discontinued": false,
+        "categories": ["c5"],
+        "images": [
+            "https://cdn.dummyjson.com/product-images/20/1.jpg",
+            "https://cdn.dummyjson.com/product-images/20/2.jpg",
+            "https://cdn.dummyjson.com/product-images/20/3.jpg",
+            "https://cdn.dummyjson.com/product-images/20/thumbnail.jpg"
+        ]
+    }
+]
+}
