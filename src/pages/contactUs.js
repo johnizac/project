@@ -1,6 +1,6 @@
 
 export default function contactUs() {
     return (
-        <><p>contactUs</p></>
+        <><p>contact Us page</p></>
     );
 }
