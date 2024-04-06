@@ -16,7 +16,7 @@ export default function ProductCard(props)
   </div>
 </div>
 
-//localapi
+
 {/* <div style={{ margin: "30px", flexGrow: "1" }}>
   <div style={{ maxWidth: "300px", border: "1px solid #ccc", borderRadius: "8px", padding: "20px" ,height:"auto" }}>
     
