@@ -1,8 +1,9 @@
-import ProductCard from "../../lib/productCard";
+import ProductCard from "../../components/productCard";
 export async function getStaticProps() {
-    const res = await fetch('http://localhost:3001/products');
+    const res = await fetch('https://dummyjson.com/products');
+    //const res = await fetch('http://localhost:3001/products');
     const data = await res.json();
-    return { props: { staticProducts: data } };
+    return { props: { staticProducts: data.products } };
 }
 
 export default function Products(props) {
