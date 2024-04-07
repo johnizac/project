@@ -15,7 +15,8 @@ export default function Layout(props) {
                         <Link className="ml-3 text-primary" href="/">Home</Link> | 
                          <Link className="ml-3 text-primary" href="/products">Products</Link> |
                          <Link className="ml-3 text-primary" href="/aboutUs">About Us</Link> |
-                         <Link className="ml-3 text-primary" href="/contactUs">Contact Us</Link>
+                         <Link className="ml-3 text-primary" href="/contactUs">Contact Us</Link> |
+                         <Link className="ml-3 text-primary" href="/favourites">Favourites</Link>
                     </nav>
                     <hr className="mb-4" />
                     {props.children}
