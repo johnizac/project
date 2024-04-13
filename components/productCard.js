@@ -30,7 +30,7 @@ export default function ProductCard(props)
                     </div>
                 </div>
             </div>
-        </div>F
+        </div>
 
 
 {/* <div style={{ margin: "30px", flexGrow: "1" }}>
