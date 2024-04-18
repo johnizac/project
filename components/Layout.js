@@ -3,7 +3,7 @@ import { useAtom } from 'jotai';
 import { useRouter } from 'next/router';
 import { searchHistoryAtom } from '../atoms';
 import { Form, FormControl, Button } from 'react-bootstrap';
-import { useState } from 'react';
+import { useState,useEffect } from 'react';
 import { readToken, removeToken } from '../lib/authenticate';
 
 export default function Layout(props) {
@@ -11,7 +11,10 @@ export default function Layout(props) {
     const [searchHistory, setSearchHistory] = useAtom(searchHistoryAtom);
     const [searchQuery, setSearchQuery] = useState('');
 
-
+    useEffect(() => {
+        
+       console.log(searchHistory); 
+    }, [searchHistory]);
 
     let token = readToken();
 
@@ -67,6 +70,12 @@ export default function Layout(props) {
                     <Link className="nav-link text-primary" href="/products">Products</Link>
                   </li>
                 )}
+                 {token && (
+                  <li className="nav-item">
+                    <Link className="nav-link text-primary" href="/history">History</Link>
+                  </li>
+                )}
+                
               </ul>
               {token && (
                 <Form className="d-flex" onSubmit={handleSubmit}>
