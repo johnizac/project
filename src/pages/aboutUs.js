@@ -5,12 +5,12 @@ const AboutUs = () => {
     <div style={{display: 'flex', justifyContent: 'space-between'}}>
       <div style={{width: '45%', border: '1px solid #ccc', padding: '20px', boxShadow: '2px 2px 5px rgba(0, 0, 0, 0.1)'}}>
         <h2>Ahmed Shaikh</h2>
-        <p>Software Engineer</p>
+        <p>Second year BSD Student. Aspiring to be a Software Engineer!</p>
         
       </div>
       <div style={{width: '45%', border: '1px solid #ccc', padding: '20px', boxShadow: '2px 2px 5px rgba(0, 0, 0, 0.1)'}}>
         <h2>John Mubeezi</h2>
-        <p>Software Enginner</p>
+        <p>Second year BSD Student. Aspiring to be a Software Engineer!</p>
        
       </div>
     </div>
